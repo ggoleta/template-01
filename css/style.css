@@ -1,3 +1,39 @@
-.box {
-  width: 100%;
-  border: 1px solid #5d99d4; }
+html,
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 16px; }
+
+/* NAVIBAR */
+.navbar-custom {
+  color: transparent;
+  background-color: transparent;
+  margin-top: 60px; }
+
+.nav-link-custom {
+  color: #d7d7d7;
+  font-size: 18px;
+  text-transform: uppercase; }
+
+.nav-link-custom:hover {
+  color: #fff; }
+
+/* SECTION HERO */
+#hero {
+  background-image: url("../img/bg-hero.png");
+  background-position: center;
+  background-size: cover; }
+
+.hero-text {
+  margin-top: 270px;
+  text-align: center; }
+  .hero-text h1 {
+    color: #fff;
+    font-size: 65px; }
+  .hero-text p {
+    font-size: 33px;
+    font-weight: 300;
+    color: #fff;
+    padding-bottom: 90px; }
+  .hero-text button {
+    margin-bottom: 240px; }
