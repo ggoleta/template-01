@@ -1,39 +1,94 @@
 html,
 body {
   font-family: 'Lato', sans-serif;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 16px; }
 
-/* NAVIBAR */
-.navbar-custom {
-  color: transparent;
-  background-color: transparent;
+/*NAVBAR*/
+.navbar {
   margin-top: 60px; }
 
-.nav-link-custom {
+.navbar button {
+  border: 1px solid #fff; }
+
+.navbar__toggler-icon {
+  color: #fff; }
+
+.nav li {
+  margin-left: 20px;
+  margin-top: 10px; }
+
+.nav a {
+  display: block;
   color: #d7d7d7;
   font-size: 18px;
-  text-transform: uppercase; }
+  font-weight: 400;
+  text-transform: uppercase;
+  text-decoration: none; }
 
-.nav-link-custom:hover {
-  color: #fff; }
+.nav a:hover {
+  color: #fff;
+  font-weight: 700; }
 
 /* SECTION HERO */
 #hero {
   background-image: url("../img/bg-hero.png");
-  background-position: center;
-  background-size: cover; }
+  background-size: cover;
+  background-position: center; }
 
-.hero-text {
+.hero__text {
   margin-top: 270px;
   text-align: center; }
-  .hero-text h1 {
+  .hero__text h1 {
     color: #fff;
-    font-size: 65px; }
-  .hero-text p {
+    font-size: 65px;
+    font-weight: 300px; }
+  .hero__text p {
+    color: #fff;
     font-size: 33px;
-    font-weight: 300;
-    color: #fff;
-    padding-bottom: 90px; }
-  .hero-text button {
-    margin-bottom: 240px; }
+    font-weight: 300; }
+
+.btn {
+  color: #fff;
+  margin-top: 90px;
+  width: 195px;
+  height: 50px;
+  border-radius: 50px;
+  border: 1px solid #fff;
+  background-color: transparent; }
+
+.btn__mb {
+  margin-bottom: 240px; }
+
+.whatwedo-title {
+  width: 50%;
+  margin-top: 190px; }
+  .whatwedo-title h2 {
+    color: #e1e1e1;
+    font-size: 127px;
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase; }
+
+.whatwedo-info {
+  margin-top: 125px; }
+  .whatwedo-info ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+  .whatwedo-info .img1 {
+    background-image: url(../img/about-icon-1.png);
+    background-repeat: no-repeat;
+    padding-left: 100px; }
+  .whatwedo-info .img2 {
+    background-image: url(../img/about-icon-2.png);
+    background-repeat: no-repeat;
+    padding-left: 100px; }
+  .whatwedo-info .img3 {
+    background-image: url(../img/about-icon-3.png);
+    background-repeat: no-repeat;
+    padding-left: 100px; }
+  .whatwedo-info .img4 {
+    background-image: url(../img/about-icon-4.png);
+    background-repeat: no-repeat;
+    padding-left: 100px; }

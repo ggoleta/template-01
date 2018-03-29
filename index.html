@@ -3,7 +3,8 @@
     <head>
         <title></title>
         <meta charset="utf-8">
-        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <!--GOOGLE FONTS-->
         <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
         
@@ -14,32 +15,34 @@
     
     <body>
         
-        <nav class="navbar navbar-expand-md navbar-custom fixed-top">
+        <nav class="navbar navbar-expand-md fixed-top">
+            
             <div class="container">
-              <a class="navbar-brand" href="#"><img src="img/Untitled-1.png"></a>
-              
-                <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
-                
-                <div class="collapse navbar-collapse" id="navbarNav">
-                
-                <ul class="navbar-nav navbar-nav-custom w-100 justify-content-end">
-                      <li class="nav-item">
-                          <a class="nav-link nav-link-custom" href="#">home</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link nav-link-custom" href="#">sevice</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link nav-link-custom" href="#">portfolio</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link nav-link-custom" href="#">contact</a>
-                      </li>
-                  </ul>
+                <a class="navbar-brand" href="#">
+                    <img src="img/Untitled-1.png">
+                </a>
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#myNavbar"><i class="fas fa-bars navbar-toggler-icon navbar__toggler-icon"></i></button>
                     
+                
+                <div class="collapse navbar-collapse justify-content-end" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="#">home</a>
+                        </li>
+                        <li>
+                            <a href="#">service</a>
+                        </li>
+                        <li>
+                            <a href="#">portfolio</a>
+                        </li>
+                        <li>
+                            <a href="#">contact</a>
+                        </li>
+                    </ul>
                 </div>
-              </div>
-        </nav>
+                
+            </div>
+        </nav><!--End Nav-->
         
         <header id="hero">
             <div class="container">
@@ -47,18 +50,63 @@
                 <div class="row">
                     <div class="col">
                         
-                        <div class="hero-text">
+                        <div class="hero__text">
                             <h1>Have an amazing business meeting</h1>
                             <p>Small business with big dreams</p>
-                            <button type="button">Learn more</button>
+                            <button class="btn btn__mb" type="button">Learn more</button>
                         </div>
                         
                     </div>
                 </div>
                 
             </div>
-        </header>
+        </header><!--end header-->
         
+        <section id="whatwedo">
+            <div class="container">
+                
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="whatwedo-title">
+                            <h2>What We Do</h2>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="whatwedo-info">
+                            <ul>
+                                <li class="img1">
+                                    <!--img src="img/about-icon-1.png"-->
+                                    <h3>Web Design</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, </p>
+                                </li>
+                                
+                                <li class="img2">
+                                    <!--img src="img/about-icon-2.png"-->
+                                    <h3>UI/UX Design</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, </p>
+                                </li>
+                                
+                                <li class="img3">
+                                    <!--img src="img/about-icon-3.png"-->
+                                    <h3>Photography</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, </p>
+                                </li>
+                                
+                                <li class="img4">
+                                    <!--img src="img/about-icon-4.png"-->
+                                    <h3>App Development</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        
+        <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/solid.js" integrity="sha384-+Ga2s7YBbhOD6nie0DzrZpJes+b2K1xkpKxTFFcx59QmVPaSA8c7pycsNaFwUK6l" crossorigin="anonymous"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js" integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c" crossorigin="anonymous"></script>
         
         <script src="js/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
